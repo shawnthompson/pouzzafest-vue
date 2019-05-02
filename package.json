@@ -1,7 +1,15 @@
 {
   "name": "pouzzafest-vue",
+  "email": "plansmash@me.com",
+  "url": "https://shawnthompson/github.io/pouzzafest-vue",
+  "description": "Pouzzafest 9 Open Source DYI Application",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shawnthompson/pouzzafest-vue.git"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

@@ -1,4 +1,6 @@
-# pouzzafest-vue
+# Pouzzafest 9 DYI App
+
+This app is created for the 2019 Pouzzafest festival in Montreal. This is an open source project with an MIT licence. 
 
 ## Project setup
 ```
