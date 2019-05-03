@@ -3,9 +3,9 @@
     <img alt="Vue logo" src="../assets/logo.png" />
     <h1>Pouzzafest 2019</h1>
     <ul>
-    <li v-for="band in bands" :key="band.id">
-      {{ band }}
-    </li>
+      <li v-for="band in bands" :key="band.id">
+        {{ band }}
+      </li>
     </ul>
     <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
   </div>
@@ -23,9 +23,9 @@ export default {
   // },
   computed: {
     bands() {
-      return data.bands.map((item) => {
+      return data.bands.map(item => {
         return item.bandName;
-      })
+      });
     }
   }
 };
